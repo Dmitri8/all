@@ -1,0 +1,18 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.concurrent.Executor;\r\nimport java.util.concurrent.ExecutorService;\r\nimport java.util.concurrent.Executors;\r\nimport java.util.concurrent.TimeUnit;\r\n\r\npublic class Main {\r\n\r\n    public static void main(String...args) throws InterruptedException {\r\n    int [] arr = {12, 23, 12,  1, 4, 45, 53, 31, 46, 87, 976, 54, 34, 45};\r\n\r\n    for(int i = 2; i < arr.length; i++){\r\n        System.out.println(i);\r\n    }\r\n\r\n\r\n    for(Integer i : arr) System.out.println(i);\r\n\r\n\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 7d89d468ced67724050c513e562d71a7524224a2)
++++ b/src/Main.java	(date 1627987813242)
+@@ -10,6 +10,7 @@
+ 
+     for(int i = 2; i < arr.length; i++){
+         System.out.println(i);
++        
+     }
+ 
+ 
