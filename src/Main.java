@@ -10,9 +10,6 @@ public class Main {
 
     for(int i = 2; i < arr.length; i+100){
         System.out.println(i);
-        System.out.println(i - 100);
-        System.out.println(i - 100);
-
     }
 
 
